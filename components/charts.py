@@ -5,7 +5,7 @@ Reusable Plotly chart components for the dashboard
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
-from typing import Optional, List
+from typing import Optional, List, Dict
 from config.config import COLORS
 
 
