@@ -1,0 +1,447 @@
+id,location_id,name,category,brand,is_active
+1,1,BUDR House Northern Lights 14g,Flower,BUDR House,True
+2,1,Wana Wedding Cake 5-pack,Pre-Rolls,Wana,True
+3,1,Cresco Jack Herer Shatter 1g,Concentrates,Cresco,False
+4,1,Rhythm Zkittlez 3.5g,Flower,Rhythm,True
+5,1,Incredibles Sleep Patch,Topicals,Incredibles,True
+6,1,AGL Runtz 0.5g Cart,Vapes,AGL,True
+7,1,Wana OG Kush 3-pack,Pre-Rolls,Wana,True
+8,1,Smokiez Sour Diesel 1g,Pre-Rolls,Smokiez,True
+9,1,Curaleaf White Widow 14g,Flower,Curaleaf,True
+10,1,BUDR House CBN Tincture 1000mg,Tinctures,BUDR House,True
+11,1,Cresco Purple Haze 1g Cart,Vapes,Cresco,True
+12,1,Heavy Hitters White Widow Shatter 1g,Concentrates,Heavy Hitters,True
+13,1,Cresco Relief Patch,Topicals,Cresco,True
+14,1,Cresco Chocolates 10mg,Edibles,Cresco,True
+15,1,Incredibles White Widow 1g Cart,Vapes,Incredibles,True
+16,1,Rhythm Mints 200mg,Edibles,Rhythm,True
+17,1,Cresco Sleep Patch,Topicals,Cresco,True
+18,1,Rhythm Relief Balm,Topicals,Rhythm,True
+19,1,Wana Sleep Lotion,Topicals,Wana,True
+20,1,Smokiez CBD Tincture 500mg,Tinctures,Smokiez,True
+21,1,Curaleaf THC Tincture 1000mg,Tinctures,Curaleaf,True
+22,1,Heavy Hitters Northern Lights Shatter 1g,Concentrates,Heavy Hitters,True
+23,1,Select Granddaddy Purple 1g Cart,Vapes,Select,True
+24,1,Rhythm Northern Lights 5-pack,Pre-Rolls,Rhythm,True
+25,1,AGL Recovery Patch,Topicals,AGL,True
+26,1,Verano Purple Haze 3-pack,Pre-Rolls,Verano,True
+27,1,STIIIZY Wedding Cake 7g,Flower,STIIIZY,True
+28,1,Incredibles THC Tincture 500mg,Tinctures,Incredibles,True
+29,1,The Botanist Purple Haze Shatter 1g,Concentrates,The Botanist,True
+30,1,BUDR House CBN Tincture 500mg,Tinctures,BUDR House,True
+31,1,Smokiez Runtz Live Resin 1g,Concentrates,Smokiez,True
+32,1,Select Chocolates 100mg,Edibles,Select,False
+33,1,Heavy Hitters Sleep Balm,Topicals,Heavy Hitters,True
+34,1,Verano CBN Tincture 500mg,Tinctures,Verano,True
+35,1,STIIIZY Chocolates 10mg,Edibles,STIIIZY,True
+36,1,Matter Pineapple Express 5-pack,Pre-Rolls,Matter,True
+37,1,Curaleaf Girl Scout Cookies Wax 1g,Concentrates,Curaleaf,True
+38,1,Heavy Hitters Mints 10mg,Edibles,Heavy Hitters,True
+39,1,Cresco Wedding Cake Live Resin 1g,Concentrates,Cresco,True
+40,1,Smokiez Purple Haze 7g,Flower,Smokiez,True
+41,1,Matter Gelato 1g Cart,Vapes,Matter,True
+42,1,Select Zkittlez Live Resin 1g,Concentrates,Select,True
+43,1,Rhythm Sleep Balm,Topicals,Rhythm,True
+44,1,Incredibles Recovery Balm,Topicals,Incredibles,True
+45,1,Cresco Zkittlez 0.5g Cart,Vapes,Cresco,True
+46,1,AGL Purple Haze 7g,Flower,AGL,True
+47,1,Cresco Northern Lights 3.5g,Flower,Cresco,True
+48,1,STIIIZY Sour Diesel 3.5g,Flower,STIIIZY,True
+49,1,Incredibles Cookies 10mg,Edibles,Incredibles,True
+50,1,Heavy Hitters Sleep Patch,Topicals,Heavy Hitters,True
+51,1,The Botanist THC Tincture 500mg,Tinctures,The Botanist,True
+52,1,Select Recovery Balm,Topicals,Select,True
+53,1,Wana CBD Tincture 500mg,Tinctures,Wana,True
+54,1,Curaleaf Relief Lotion,Topicals,Curaleaf,True
+55,1,The Botanist Gelato Shatter 1g,Concentrates,The Botanist,True
+56,1,Rhythm White Widow 0.5g Cart,Vapes,Rhythm,True
+57,1,STIIIZY CBN Tincture 500mg,Tinctures,STIIIZY,True
+58,1,STIIIZY Blue Dream Wax 1g,Concentrates,STIIIZY,True
+59,1,Rhythm CBD Tincture 1000mg,Tinctures,Rhythm,True
+60,1,STIIIZY OG Kush 1g,Pre-Rolls,STIIIZY,True
+61,1,Select Runtz 28g,Flower,Select,True
+62,1,Wana Sleep Patch,Topicals,Wana,True
+63,1,Rhythm Runtz 1g,Pre-Rolls,Rhythm,True
+64,1,Wana Purple Haze Wax 1g,Concentrates,Wana,True
+65,1,BUDR House Jack Herer 28g,Flower,BUDR House,True
+66,1,Matter CBD Tincture 500mg,Tinctures,Matter,True
+67,1,STIIIZY Gelato 3.5g,Flower,STIIIZY,True
+68,1,STIIIZY Relief Balm,Topicals,STIIIZY,True
+69,1,Rhythm Jack Herer Live Resin 1g,Concentrates,Rhythm,False
+70,1,Select Trainwreck 14g,Flower,Select,True
+71,2,Wana Recovery Lotion,Topicals,Wana,True
+72,2,Incredibles Trainwreck 3-pack,Pre-Rolls,Incredibles,True
+73,2,Heavy Hitters CBD Tincture 500mg,Tinctures,Heavy Hitters,True
+74,2,Cresco Wedding Cake Live Resin 1g,Concentrates,Cresco,True
+75,2,Verano Mints 10mg,Edibles,Verano,True
+76,2,Good News Chocolates 100mg,Edibles,Good News,True
+77,2,Good News Sleep Patch,Topicals,Good News,True
+78,2,STIIIZY Sleep Balm,Topicals,STIIIZY,True
+79,2,Heavy Hitters Gelato 14g,Flower,Heavy Hitters,True
+80,2,Wana Purple Haze 7g,Flower,Wana,True
+81,2,Rhythm Northern Lights Shatter 1g,Concentrates,Rhythm,True
+82,2,STIIIZY Recovery Patch,Topicals,STIIIZY,True
+83,2,BUDR House CBD Tincture 1000mg,Tinctures,BUDR House,True
+84,2,BUDR House Sour Diesel 7g,Flower,BUDR House,True
+85,2,Verano Cookies 200mg,Edibles,Verano,True
+86,2,BUDR House Wedding Cake Wax 1g,Concentrates,BUDR House,True
+87,2,Heavy Hitters Relief Patch,Topicals,Heavy Hitters,False
+88,2,AGL Chocolates 100mg,Edibles,AGL,True
+89,2,Curaleaf Gummies 100mg,Edibles,Curaleaf,True
+90,2,Incredibles Wedding Cake 3-pack,Pre-Rolls,Incredibles,True
+91,2,Select CBN Tincture 500mg,Tinctures,Select,True
+92,2,STIIIZY Gelato 1g,Pre-Rolls,STIIIZY,True
+93,2,Verano Northern Lights 14g,Flower,Verano,True
+94,2,Smokiez Trainwreck 0.5g Cart,Vapes,Smokiez,True
+95,2,Wana CBD Tincture 1000mg,Tinctures,Wana,True
+96,2,The Botanist CBD Tincture 500mg,Tinctures,The Botanist,True
+97,2,Curaleaf Runtz 0.5g Cart,Vapes,Curaleaf,True
+98,2,Rhythm Recovery Balm,Topicals,Rhythm,True
+99,2,Smokiez Runtz 14g,Flower,Smokiez,True
+100,2,Incredibles White Widow 1g Cart,Vapes,Incredibles,True
+101,2,Heavy Hitters Runtz 7g,Flower,Heavy Hitters,True
+102,2,BUDR House Gummies 200mg,Edibles,BUDR House,True
+103,2,Smokiez Recovery Balm,Topicals,Smokiez,True
+104,2,Cresco OG Kush Live Resin 1g,Concentrates,Cresco,True
+105,2,Wana OG Kush 3.5g,Flower,Wana,True
+106,2,Matter CBN Tincture 500mg,Tinctures,Matter,True
+107,2,Incredibles Granddaddy Purple 14g,Flower,Incredibles,True
+108,2,STIIIZY Relief Patch,Topicals,STIIIZY,True
+109,2,Good News Trainwreck Shatter 1g,Concentrates,Good News,True
+110,2,Good News Sleep Lotion,Topicals,Good News,True
+111,2,Select Sleep Patch,Topicals,Select,True
+112,2,AGL Runtz Shatter 1g,Concentrates,AGL,True
+113,2,Good News Runtz 7g,Flower,Good News,True
+114,2,AGL Trainwreck Shatter 1g,Concentrates,AGL,True
+115,2,Incredibles Zkittlez 1g Cart,Vapes,Incredibles,True
+116,2,Wana CBD Tincture 500mg,Tinctures,Wana,True
+117,2,Incredibles Sleep Balm,Topicals,Incredibles,True
+118,2,Rhythm CBN Tincture 1000mg,Tinctures,Rhythm,True
+119,2,Verano Blue Dream 1g,Pre-Rolls,Verano,True
+120,2,AGL White Widow 0.5g Cart,Vapes,AGL,True
+121,2,AGL Relief Patch,Topicals,AGL,True
+122,2,Select Zkittlez 0.5g Cart,Vapes,Select,True
+123,2,Heavy Hitters Pineapple Express 3.5g,Flower,Heavy Hitters,True
+124,2,Verano Pineapple Express 5-pack,Pre-Rolls,Verano,True
+125,2,Matter Zkittlez 3.5g,Flower,Matter,True
+126,2,The Botanist CBN Tincture 1000mg,Tinctures,The Botanist,True
+127,3,AGL White Widow 1g Cart,Vapes,AGL,True
+128,3,The Botanist Granddaddy Purple Wax 1g,Concentrates,The Botanist,True
+129,3,The Botanist Runtz 0.5g Cart,Vapes,The Botanist,True
+130,3,Smokiez Cookies 200mg,Edibles,Smokiez,True
+131,3,Cresco Northern Lights 1g Cart,Vapes,Cresco,True
+132,3,Curaleaf Gummies 10mg,Edibles,Curaleaf,True
+133,3,Wana Gelato 0.5g Cart,Vapes,Wana,True
+134,3,Curaleaf Purple Haze 1g Cart,Vapes,Curaleaf,True
+135,3,STIIIZY OG Kush 3-pack,Pre-Rolls,STIIIZY,True
+136,3,Wana Blue Dream Live Resin 1g,Concentrates,Wana,True
+137,3,Curaleaf Runtz 28g,Flower,Curaleaf,True
+138,3,Select CBN Tincture 500mg,Tinctures,Select,True
+139,3,Select Cookies 10mg,Edibles,Select,True
+140,3,Incredibles Recovery Patch,Topicals,Incredibles,True
+141,3,Heavy Hitters Gelato 0.5g Cart,Vapes,Heavy Hitters,True
+142,3,AGL Trainwreck Wax 1g,Concentrates,AGL,True
+143,3,Verano White Widow 1g Cart,Vapes,Verano,True
+144,3,Select Mints 10mg,Edibles,Select,True
+145,3,Smokiez Cookies 100mg,Edibles,Smokiez,True
+146,3,Select THC Tincture 500mg,Tinctures,Select,True
+147,3,Matter Relief Balm,Topicals,Matter,True
+148,3,Smokiez Trainwreck 3.5g,Flower,Smokiez,True
+149,3,Rhythm White Widow 1g,Pre-Rolls,Rhythm,True
+150,3,Verano Girl Scout Cookies 5-pack,Pre-Rolls,Verano,True
+151,3,The Botanist Northern Lights 3-pack,Pre-Rolls,The Botanist,True
+152,3,AGL Jack Herer 5-pack,Pre-Rolls,AGL,True
+153,3,STIIIZY CBD Tincture 1000mg,Tinctures,STIIIZY,True
+154,3,Heavy Hitters Runtz 28g,Flower,Heavy Hitters,True
+155,3,Rhythm Relief Patch,Topicals,Rhythm,True
+156,3,Rhythm Relief Patch,Topicals,Rhythm,True
+157,3,Incredibles CBN Tincture 500mg,Tinctures,Incredibles,True
+158,3,Smokiez Blue Dream Shatter 1g,Concentrates,Smokiez,True
+159,3,Curaleaf Relief Patch,Topicals,Curaleaf,True
+160,3,STIIIZY OG Kush 28g,Flower,STIIIZY,True
+161,3,Incredibles Cookies 200mg,Edibles,Incredibles,True
+162,3,Wana Purple Haze 5-pack,Pre-Rolls,Wana,True
+163,3,Heavy Hitters CBN Tincture 1000mg,Tinctures,Heavy Hitters,True
+164,3,Wana CBN Tincture 1000mg,Tinctures,Wana,True
+165,3,STIIIZY Granddaddy Purple 1g,Pre-Rolls,STIIIZY,True
+166,3,Rhythm Pineapple Express 1g Cart,Vapes,Rhythm,True
+167,3,Select Recovery Lotion,Topicals,Select,True
+168,3,Verano Cookies 10mg,Edibles,Verano,True
+169,3,Curaleaf Mints 200mg,Edibles,Curaleaf,True
+170,3,Matter Gummies 200mg,Edibles,Matter,True
+171,3,Rhythm Northern Lights 28g,Flower,Rhythm,True
+172,3,Rhythm CBN Tincture 1000mg,Tinctures,Rhythm,True
+173,3,The Botanist Pineapple Express 0.5g Cart,Vapes,The Botanist,True
+174,3,Select Northern Lights 1g,Pre-Rolls,Select,True
+175,3,Curaleaf Girl Scout Cookies Live Resin 1g,Concentrates,Curaleaf,True
+176,3,Wana Purple Haze 1g Cart,Vapes,Wana,True
+177,3,Good News Runtz 1g Cart,Vapes,Good News,True
+178,3,Rhythm Recovery Lotion,Topicals,Rhythm,True
+179,3,Wana CBD Tincture 500mg,Tinctures,Wana,True
+180,3,Good News Northern Lights 1g Cart,Vapes,Good News,True
+181,3,Rhythm THC Tincture 500mg,Tinctures,Rhythm,True
+182,3,BUDR House Chocolates 100mg,Edibles,BUDR House,False
+183,3,Matter Runtz 7g,Flower,Matter,True
+184,3,The Botanist CBD Tincture 500mg,Tinctures,The Botanist,True
+185,3,The Botanist Girl Scout Cookies 1g Cart,Vapes,The Botanist,True
+186,3,Good News White Widow 28g,Flower,Good News,True
+187,3,Select Girl Scout Cookies 3.5g,Flower,Select,True
+188,3,BUDR House Relief Lotion,Topicals,BUDR House,True
+189,3,Cresco Chocolates 10mg,Edibles,Cresco,True
+190,3,AGL Jack Herer 0.5g Cart,Vapes,AGL,True
+191,3,The Botanist Granddaddy Purple 1g Cart,Vapes,The Botanist,True
+192,3,Select Runtz Live Resin 1g,Concentrates,Select,True
+193,3,Wana Wedding Cake Wax 1g,Concentrates,Wana,True
+194,3,Incredibles Gummies 10mg,Edibles,Incredibles,True
+195,3,Cresco Gelato Wax 1g,Concentrates,Cresco,True
+196,3,AGL Recovery Balm,Topicals,AGL,False
+197,3,Wana Mints 200mg,Edibles,Wana,True
+198,3,Incredibles Zkittlez 14g,Flower,Incredibles,True
+199,3,AGL Sleep Lotion,Topicals,AGL,True
+200,3,Rhythm Trainwreck Wax 1g,Concentrates,Rhythm,True
+201,3,Verano CBD Tincture 500mg,Tinctures,Verano,True
+202,3,AGL Mints 100mg,Edibles,AGL,True
+203,3,Good News Sleep Balm,Topicals,Good News,True
+204,3,Matter Girl Scout Cookies Shatter 1g,Concentrates,Matter,True
+205,4,Wana Sour Diesel 1g Cart,Vapes,Wana,False
+206,4,Incredibles White Widow 5-pack,Pre-Rolls,Incredibles,True
+207,4,Smokiez Trainwreck 14g,Flower,Smokiez,True
+208,4,Smokiez CBD Tincture 1000mg,Tinctures,Smokiez,True
+209,4,Heavy Hitters Runtz 0.5g Cart,Vapes,Heavy Hitters,True
+210,4,Incredibles White Widow 1g Cart,Vapes,Incredibles,True
+211,4,Curaleaf OG Kush 1g Cart,Vapes,Curaleaf,True
+212,4,STIIIZY Gelato 14g,Flower,STIIIZY,True
+213,4,Good News Trainwreck 1g Cart,Vapes,Good News,True
+214,4,BUDR House Girl Scout Cookies Wax 1g,Concentrates,BUDR House,True
+215,4,Cresco Cookies 200mg,Edibles,Cresco,True
+216,4,Incredibles White Widow 28g,Flower,Incredibles,True
+217,4,Matter Sour Diesel 5-pack,Pre-Rolls,Matter,True
+218,4,The Botanist Relief Lotion,Topicals,The Botanist,True
+219,4,Heavy Hitters Runtz 3-pack,Pre-Rolls,Heavy Hitters,True
+220,4,Cresco Blue Dream 0.5g Cart,Vapes,Cresco,True
+221,4,Matter Gummies 200mg,Edibles,Matter,True
+222,4,STIIIZY Granddaddy Purple 1g,Pre-Rolls,STIIIZY,True
+223,4,Incredibles White Widow 7g,Flower,Incredibles,True
+224,4,Good News Sleep Patch,Topicals,Good News,True
+225,4,The Botanist THC Tincture 500mg,Tinctures,The Botanist,True
+226,4,Select Zkittlez 5-pack,Pre-Rolls,Select,True
+227,4,STIIIZY Wedding Cake 3-pack,Pre-Rolls,STIIIZY,True
+228,4,Select THC Tincture 1000mg,Tinctures,Select,True
+229,4,Wana Mints 200mg,Edibles,Wana,True
+230,4,The Botanist Relief Balm,Topicals,The Botanist,True
+231,4,Curaleaf Cookies 100mg,Edibles,Curaleaf,True
+232,4,Rhythm CBN Tincture 500mg,Tinctures,Rhythm,True
+233,4,STIIIZY Pineapple Express 3-pack,Pre-Rolls,STIIIZY,False
+234,4,The Botanist Sleep Balm,Topicals,The Botanist,True
+235,4,Smokiez Sleep Lotion,Topicals,Smokiez,True
+236,4,Verano Purple Haze 14g,Flower,Verano,True
+237,4,STIIIZY THC Tincture 500mg,Tinctures,STIIIZY,True
+238,4,BUDR House Northern Lights 0.5g Cart,Vapes,BUDR House,True
+239,4,Verano Relief Balm,Topicals,Verano,True
+240,4,Curaleaf Cookies 200mg,Edibles,Curaleaf,True
+241,4,STIIIZY Cookies 100mg,Edibles,STIIIZY,True
+242,4,The Botanist CBN Tincture 500mg,Tinctures,The Botanist,True
+243,4,Incredibles Trainwreck 3-pack,Pre-Rolls,Incredibles,True
+244,4,Cresco Recovery Lotion,Topicals,Cresco,True
+245,4,STIIIZY Relief Balm,Topicals,STIIIZY,True
+246,4,Heavy Hitters Gummies 10mg,Edibles,Heavy Hitters,True
+247,4,Good News Sour Diesel 14g,Flower,Good News,True
+248,4,Matter OG Kush 5-pack,Pre-Rolls,Matter,True
+249,4,Verano Gelato 1g,Pre-Rolls,Verano,True
+250,4,AGL Trainwreck 0.5g Cart,Vapes,AGL,True
+251,4,Verano Zkittlez Shatter 1g,Concentrates,Verano,True
+252,4,Good News Trainwreck 0.5g Cart,Vapes,Good News,True
+253,4,Heavy Hitters Runtz 0.5g Cart,Vapes,Heavy Hitters,True
+254,4,AGL Mints 200mg,Edibles,AGL,True
+255,4,Good News Recovery Balm,Topicals,Good News,True
+256,5,The Botanist CBD Tincture 500mg,Tinctures,The Botanist,True
+257,5,AGL Mints 200mg,Edibles,AGL,True
+258,5,Incredibles THC Tincture 1000mg,Tinctures,Incredibles,False
+259,5,Incredibles CBN Tincture 500mg,Tinctures,Incredibles,True
+260,5,The Botanist Recovery Lotion,Topicals,The Botanist,True
+261,5,Rhythm Chocolates 200mg,Edibles,Rhythm,True
+262,5,Wana CBN Tincture 500mg,Tinctures,Wana,True
+263,5,Incredibles Relief Balm,Topicals,Incredibles,True
+264,5,AGL Sour Diesel 7g,Flower,AGL,True
+265,5,Curaleaf Cookies 10mg,Edibles,Curaleaf,True
+266,5,Matter THC Tincture 1000mg,Tinctures,Matter,True
+267,5,Heavy Hitters Cookies 100mg,Edibles,Heavy Hitters,True
+268,5,Smokiez Gummies 100mg,Edibles,Smokiez,True
+269,5,Smokiez Zkittlez 5-pack,Pre-Rolls,Smokiez,True
+270,5,STIIIZY Pineapple Express 1g Cart,Vapes,STIIIZY,True
+271,5,BUDR House Runtz 0.5g Cart,Vapes,BUDR House,True
+272,5,Wana Sleep Balm,Topicals,Wana,True
+273,5,Incredibles THC Tincture 500mg,Tinctures,Incredibles,True
+274,5,BUDR House Jack Herer 1g Cart,Vapes,BUDR House,True
+275,5,Incredibles Wedding Cake 5-pack,Pre-Rolls,Incredibles,True
+276,5,Good News Sleep Balm,Topicals,Good News,True
+277,5,BUDR House Runtz 28g,Flower,BUDR House,True
+278,5,Heavy Hitters Purple Haze 1g,Pre-Rolls,Heavy Hitters,True
+279,5,Incredibles Cookies 200mg,Edibles,Incredibles,True
+280,5,Heavy Hitters OG Kush 5-pack,Pre-Rolls,Heavy Hitters,True
+281,5,AGL OG Kush 1g Cart,Vapes,AGL,False
+282,5,Rhythm Cookies 100mg,Edibles,Rhythm,True
+283,5,Curaleaf CBD Tincture 1000mg,Tinctures,Curaleaf,True
+284,5,Curaleaf Relief Balm,Topicals,Curaleaf,True
+285,5,STIIIZY White Widow 28g,Flower,STIIIZY,True
+286,5,Incredibles Trainwreck 5-pack,Pre-Rolls,Incredibles,True
+287,5,Smokiez Sour Diesel 7g,Flower,Smokiez,True
+288,5,AGL CBD Tincture 500mg,Tinctures,AGL,True
+289,5,Rhythm Jack Herer Wax 1g,Concentrates,Rhythm,True
+290,5,Curaleaf Pineapple Express 1g,Pre-Rolls,Curaleaf,True
+291,5,BUDR House Runtz Wax 1g,Concentrates,BUDR House,True
+292,5,Good News Pineapple Express Wax 1g,Concentrates,Good News,True
+293,5,BUDR House CBD Tincture 500mg,Tinctures,BUDR House,True
+294,5,Rhythm CBN Tincture 1000mg,Tinctures,Rhythm,False
+295,5,BUDR House Chocolates 200mg,Edibles,BUDR House,True
+296,5,Wana Wedding Cake 28g,Flower,Wana,True
+297,5,Matter Gummies 100mg,Edibles,Matter,True
+298,5,BUDR House Northern Lights Live Resin 1g,Concentrates,BUDR House,True
+299,5,Incredibles Blue Dream 0.5g Cart,Vapes,Incredibles,True
+300,5,Select THC Tincture 500mg,Tinctures,Select,True
+301,5,Cresco Granddaddy Purple 0.5g Cart,Vapes,Cresco,True
+302,5,Cresco Gelato 3-pack,Pre-Rolls,Cresco,True
+303,5,Matter Northern Lights Shatter 1g,Concentrates,Matter,True
+304,5,Matter Runtz Shatter 1g,Concentrates,Matter,True
+305,5,Cresco Pineapple Express 0.5g Cart,Vapes,Cresco,True
+306,5,Heavy Hitters Sleep Patch,Topicals,Heavy Hitters,True
+307,5,The Botanist Granddaddy Purple 0.5g Cart,Vapes,The Botanist,True
+308,5,The Botanist THC Tincture 1000mg,Tinctures,The Botanist,True
+309,5,Select Mints 200mg,Edibles,Select,True
+310,5,Incredibles Granddaddy Purple 3-pack,Pre-Rolls,Incredibles,True
+311,5,Cresco CBD Tincture 1000mg,Tinctures,Cresco,True
+312,5,Curaleaf Relief Patch,Topicals,Curaleaf,True
+313,5,Matter Sour Diesel Live Resin 1g,Concentrates,Matter,True
+314,5,STIIIZY Cookies 200mg,Edibles,STIIIZY,True
+315,5,AGL Mints 100mg,Edibles,AGL,True
+316,5,Rhythm Gelato Live Resin 1g,Concentrates,Rhythm,True
+317,5,Cresco THC Tincture 1000mg,Tinctures,Cresco,True
+318,6,Rhythm Pineapple Express Shatter 1g,Concentrates,Rhythm,True
+319,6,STIIIZY CBN Tincture 500mg,Tinctures,STIIIZY,True
+320,6,STIIIZY Sleep Balm,Topicals,STIIIZY,False
+321,6,Wana Mints 100mg,Edibles,Wana,True
+322,6,STIIIZY Gelato 5-pack,Pre-Rolls,STIIIZY,True
+323,6,Verano Northern Lights 3.5g,Flower,Verano,True
+324,6,Rhythm OG Kush Shatter 1g,Concentrates,Rhythm,True
+325,6,Curaleaf Runtz 5-pack,Pre-Rolls,Curaleaf,True
+326,6,AGL Wedding Cake Wax 1g,Concentrates,AGL,True
+327,6,AGL CBD Tincture 500mg,Tinctures,AGL,True
+328,6,Select Recovery Patch,Topicals,Select,True
+329,6,Rhythm Gummies 100mg,Edibles,Rhythm,True
+330,6,Incredibles Cookies 200mg,Edibles,Incredibles,True
+331,6,Rhythm OG Kush 3.5g,Flower,Rhythm,False
+332,6,Rhythm Chocolates 100mg,Edibles,Rhythm,True
+333,6,BUDR House Girl Scout Cookies 28g,Flower,BUDR House,True
+334,6,Matter Northern Lights 0.5g Cart,Vapes,Matter,True
+335,6,Incredibles THC Tincture 500mg,Tinctures,Incredibles,True
+336,6,BUDR House Recovery Lotion,Topicals,BUDR House,True
+337,6,STIIIZY Sour Diesel 28g,Flower,STIIIZY,True
+338,6,Incredibles Recovery Balm,Topicals,Incredibles,True
+339,6,Curaleaf Gelato 28g,Flower,Curaleaf,True
+340,6,Cresco Cookies 10mg,Edibles,Cresco,True
+341,6,Select Purple Haze Wax 1g,Concentrates,Select,True
+342,6,Wana Mints 10mg,Edibles,Wana,True
+343,6,Cresco Purple Haze 5-pack,Pre-Rolls,Cresco,True
+344,6,Rhythm Granddaddy Purple Shatter 1g,Concentrates,Rhythm,True
+345,6,Incredibles CBD Tincture 500mg,Tinctures,Incredibles,True
+346,6,Rhythm Chocolates 200mg,Edibles,Rhythm,True
+347,6,Incredibles CBD Tincture 500mg,Tinctures,Incredibles,True
+348,6,The Botanist Recovery Patch,Topicals,The Botanist,True
+349,6,Incredibles Granddaddy Purple 1g Cart,Vapes,Incredibles,True
+350,6,Curaleaf Relief Balm,Topicals,Curaleaf,True
+351,6,Incredibles Runtz 1g Cart,Vapes,Incredibles,True
+352,6,Matter Gummies 100mg,Edibles,Matter,True
+353,6,BUDR House Sour Diesel 14g,Flower,BUDR House,True
+354,6,STIIIZY CBD Tincture 1000mg,Tinctures,STIIIZY,True
+355,6,Smokiez Northern Lights Wax 1g,Concentrates,Smokiez,True
+356,6,AGL CBN Tincture 500mg,Tinctures,AGL,True
+357,6,Matter Gelato 0.5g Cart,Vapes,Matter,True
+358,6,Heavy Hitters THC Tincture 500mg,Tinctures,Heavy Hitters,True
+359,6,BUDR House Zkittlez 5-pack,Pre-Rolls,BUDR House,True
+360,6,Matter Purple Haze 0.5g Cart,Vapes,Matter,True
+361,6,Select Cookies 100mg,Edibles,Select,True
+362,6,Smokiez Trainwreck 14g,Flower,Smokiez,True
+363,6,Matter Trainwreck 28g,Flower,Matter,True
+364,6,STIIIZY Sleep Patch,Topicals,STIIIZY,True
+365,6,Cresco Chocolates 100mg,Edibles,Cresco,True
+366,6,Wana Sleep Balm,Topicals,Wana,True
+367,6,Cresco Recovery Patch,Topicals,Cresco,True
+368,6,Curaleaf CBD Tincture 500mg,Tinctures,Curaleaf,True
+369,6,Matter Sour Diesel 0.5g Cart,Vapes,Matter,True
+370,6,Rhythm Sour Diesel 3-pack,Pre-Rolls,Rhythm,True
+371,6,Verano Wedding Cake 3-pack,Pre-Rolls,Verano,True
+372,6,Matter Pineapple Express 3.5g,Flower,Matter,True
+373,6,AGL CBD Tincture 1000mg,Tinctures,AGL,True
+374,6,STIIIZY Northern Lights 5-pack,Pre-Rolls,STIIIZY,True
+375,6,Wana Girl Scout Cookies 1g,Pre-Rolls,Wana,True
+376,7,Rhythm Recovery Patch,Topicals,Rhythm,True
+377,7,Smokiez Recovery Lotion,Topicals,Smokiez,True
+378,7,Smokiez Cookies 10mg,Edibles,Smokiez,True
+379,7,The Botanist Girl Scout Cookies Shatter 1g,Concentrates,The Botanist,True
+380,7,Matter OG Kush Wax 1g,Concentrates,Matter,True
+381,7,AGL CBD Tincture 1000mg,Tinctures,AGL,True
+382,7,STIIIZY Sour Diesel 0.5g Cart,Vapes,STIIIZY,True
+383,7,STIIIZY Wedding Cake Shatter 1g,Concentrates,STIIIZY,True
+384,7,Good News Girl Scout Cookies 5-pack,Pre-Rolls,Good News,True
+385,7,Cresco Granddaddy Purple 0.5g Cart,Vapes,Cresco,True
+386,7,Heavy Hitters Gummies 100mg,Edibles,Heavy Hitters,True
+387,7,Curaleaf Zkittlez Shatter 1g,Concentrates,Curaleaf,True
+388,7,Rhythm Gummies 100mg,Edibles,Rhythm,True
+389,7,Wana CBN Tincture 1000mg,Tinctures,Wana,True
+390,7,BUDR House Runtz 3-pack,Pre-Rolls,BUDR House,True
+391,7,Smokiez Northern Lights 3-pack,Pre-Rolls,Smokiez,True
+392,7,Heavy Hitters Wedding Cake 3.5g,Flower,Heavy Hitters,True
+393,7,Verano CBN Tincture 1000mg,Tinctures,Verano,True
+394,7,Rhythm Mints 10mg,Edibles,Rhythm,False
+395,7,Incredibles Pineapple Express 1g Cart,Vapes,Incredibles,True
+396,7,Heavy Hitters THC Tincture 500mg,Tinctures,Heavy Hitters,True
+397,7,Rhythm Northern Lights Wax 1g,Concentrates,Rhythm,True
+398,7,AGL Sour Diesel 7g,Flower,AGL,True
+399,7,Incredibles Trainwreck 1g,Pre-Rolls,Incredibles,True
+400,7,Cresco Gummies 100mg,Edibles,Cresco,True
+401,7,Incredibles OG Kush 14g,Flower,Incredibles,True
+402,7,Curaleaf Pineapple Express 3.5g,Flower,Curaleaf,True
+403,7,Incredibles Sleep Lotion,Topicals,Incredibles,True
+404,7,Smokiez Recovery Lotion,Topicals,Smokiez,False
+405,7,Curaleaf White Widow Live Resin 1g,Concentrates,Curaleaf,True
+406,7,Incredibles THC Tincture 1000mg,Tinctures,Incredibles,True
+407,7,Verano CBD Tincture 1000mg,Tinctures,Verano,False
+408,7,BUDR House Pineapple Express 1g,Pre-Rolls,BUDR House,True
+409,7,Heavy Hitters Mints 200mg,Edibles,Heavy Hitters,True
+410,7,Matter THC Tincture 1000mg,Tinctures,Matter,False
+411,7,Rhythm Recovery Balm,Topicals,Rhythm,True
+412,7,STIIIZY Trainwreck 14g,Flower,STIIIZY,True
+413,7,Curaleaf THC Tincture 1000mg,Tinctures,Curaleaf,True
+414,7,Curaleaf Gelato 1g Cart,Vapes,Curaleaf,True
+415,7,Heavy Hitters Mints 10mg,Edibles,Heavy Hitters,True
+416,7,Select Jack Herer 7g,Flower,Select,True
+417,7,Cresco Gummies 100mg,Edibles,Cresco,True
+418,7,The Botanist Cookies 10mg,Edibles,The Botanist,True
+419,7,The Botanist Gummies 200mg,Edibles,The Botanist,True
+420,7,AGL Cookies 100mg,Edibles,AGL,True
+421,7,BUDR House CBD Tincture 1000mg,Tinctures,BUDR House,True
+422,7,Wana CBN Tincture 500mg,Tinctures,Wana,True
+423,7,STIIIZY Jack Herer 5-pack,Pre-Rolls,STIIIZY,True
+424,7,Verano Wedding Cake 7g,Flower,Verano,True
+425,7,Curaleaf Cookies 200mg,Edibles,Curaleaf,False
+426,7,Incredibles Girl Scout Cookies 3-pack,Pre-Rolls,Incredibles,True
+427,7,Cresco CBN Tincture 500mg,Tinctures,Cresco,True
+428,7,Curaleaf Trainwreck 1g Cart,Vapes,Curaleaf,True
+429,7,BUDR House Northern Lights 7g,Flower,BUDR House,True
+430,7,Heavy Hitters Purple Haze 0.5g Cart,Vapes,Heavy Hitters,True
+431,7,Wana Cookies 10mg,Edibles,Wana,True
+432,7,Wana Cookies 10mg,Edibles,Wana,True
+433,7,Cresco THC Tincture 500mg,Tinctures,Cresco,True
+434,7,Cresco Pineapple Express 1g Cart,Vapes,Cresco,True
+435,7,Cresco Sleep Patch,Topicals,Cresco,True
+436,7,STIIIZY Chocolates 200mg,Edibles,STIIIZY,True
+437,7,Incredibles Relief Balm,Topicals,Incredibles,True
+438,7,Rhythm Pineapple Express 7g,Flower,Rhythm,True
+439,7,BUDR House Sour Diesel 1g Cart,Vapes,BUDR House,True
+440,7,Verano Jack Herer Wax 1g,Concentrates,Verano,True
+441,7,Wana Northern Lights 1g Cart,Vapes,Wana,True
+442,7,Select CBN Tincture 500mg,Tinctures,Select,True
+443,7,Incredibles Gummies 100mg,Edibles,Incredibles,True
+444,7,Curaleaf Gelato Live Resin 1g,Concentrates,Curaleaf,True
+445,7,Smokiez Gelato 3-pack,Pre-Rolls,Smokiez,True
+446,7,BUDR House CBD Tincture 500mg,Tinctures,BUDR House,True

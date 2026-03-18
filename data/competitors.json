@@ -1,0 +1,42 @@
+[
+  {
+    "id": 101,
+    "name": "ZEN LEAF",
+    "location": "West Hartford, CT"
+  },
+  {
+    "id": 102,
+    "name": "BLUEPOINT",
+    "location": "Westport, CT"
+  },
+  {
+    "id": 103,
+    "name": "FINE FETTLE",
+    "location": "Stamford, CT"
+  },
+  {
+    "id": 104,
+    "name": "STILL RIVER",
+    "location": "Newtown, CT"
+  },
+  {
+    "id": 105,
+    "name": "CURALEAF",
+    "location": "Milford, CT"
+  },
+  {
+    "id": 106,
+    "name": "THE BOTANIST",
+    "location": "Danbury, CT"
+  },
+  {
+    "id": 107,
+    "name": "AHLOT",
+    "location": "Rocky Hill, CT"
+  },
+  {
+    "id": 108,
+    "name": "AFFINITY",
+    "location": "New Haven, CT"
+  }
+]
