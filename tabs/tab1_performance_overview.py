@@ -41,9 +41,10 @@ def render(db, selected_date: str, selected_locations: list,
                 prev_avg = prev_kpis['avg_ticket']['avg_ticket'].iloc[0]
                 delta = avg_ticket - prev_avg
             
-            st.plotly_chart(
-                create_metric_card(avg_ticket, "Average Ticket", delta, prefix="$"),
-                use_container_width=True
+            st.metric(
+                label="Average Ticket",
+                value=f"${avg_ticket:.2f}",
+                delta=f"${delta:.2f}" if delta is not None else None
             )
             
             # Alert if below threshold
@@ -53,17 +54,17 @@ def render(db, selected_date: str, selected_locations: list,
     with col2:
         if not kpis['avg_ticket'].empty:
             med_ticket = kpis['avg_ticket']['med_avg_ticket'].iloc[0]
-            st.plotly_chart(
-                create_metric_card(med_ticket, "Medical Avg Ticket", prefix="$"),
-                use_container_width=True
+            st.metric(
+                label="Medical Avg Ticket",
+                value=f"${med_ticket:.2f}"
             )
     
     with col3:
         if not kpis['avg_ticket'].empty:
             rec_ticket = kpis['avg_ticket']['rec_avg_ticket'].iloc[0]
-            st.plotly_chart(
-                create_metric_card(rec_ticket, "Recreational Avg Ticket", prefix="$"),
-                use_container_width=True
+            st.metric(
+                label="Recreational Avg Ticket",
+                value=f"${rec_ticket:.2f}"
             )
     
     # Trend sparkline
@@ -172,9 +173,9 @@ def render(db, selected_date: str, selected_locations: list,
             overall_margin = kpis['margin']['overall_margin'].iloc[0]
             total_profit = kpis['margin']['total_profit'].iloc[0]
             
-            st.plotly_chart(
-                create_metric_card(overall_margin, "Overall Gross Margin", suffix="%", format_str=".1f"),
-                use_container_width=True
+            st.metric(
+                label="Overall Gross Margin",
+                value=f"{overall_margin:.1f}%"
             )
             
             # Alert if below threshold
@@ -183,17 +184,17 @@ def render(db, selected_date: str, selected_locations: list,
     
     with col2:
         if not kpis['margin'].empty:
-            st.plotly_chart(
-                create_metric_card(total_profit, "Total Gross Profit", prefix="$", format_str=",.0f"),
-                use_container_width=True
+            st.metric(
+                label="Total Gross Profit",
+                value=f"${total_profit:,.0f}"
             )
     
     with col3:
         if not kpis['margin'].empty:
             total_revenue = kpis['margin']['total_revenue'].iloc[0]
-            st.plotly_chart(
-                create_metric_card(total_revenue, "Total Revenue", prefix="$", format_str=",.0f"),
-                use_container_width=True
+            st.metric(
+                label="Total Revenue",
+                value=f"${total_revenue:,.0f}"
             )
     
     # Margin by category
