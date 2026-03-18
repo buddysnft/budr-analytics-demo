@@ -8,7 +8,7 @@ from components.charts import create_bar_chart, create_heatmap, create_scatter
 from config.config import COLORS, THRESHOLDS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Product Performance tab"""
     

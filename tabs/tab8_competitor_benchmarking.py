@@ -8,7 +8,7 @@ from components.charts import create_comparison_chart, create_bar_chart, create_
 from config.config import COLORS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Competitor Benchmarking tab"""
     

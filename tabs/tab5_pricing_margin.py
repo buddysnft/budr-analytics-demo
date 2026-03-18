@@ -8,7 +8,7 @@ from components.charts import create_bar_chart, create_line_chart, create_compar
 from config.config import COLORS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Pricing & Margin tab"""
     

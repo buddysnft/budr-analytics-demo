@@ -9,7 +9,7 @@ from components.charts import (create_line_chart, create_pie_chart, create_stack
 from config.config import COLORS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Revenue Deep Dive tab"""
     
@@ -40,9 +40,16 @@ def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
             st.metric("Avg Daily Revenue", f"${avg_daily:,.0f}")
         
         with col3:
-            if len(comp_kpis) > 1:
+            if len(comp_kpis) > 1 and 'revenue_wow_growth' in comp_kpis.columns:
                 growth = comp_kpis['revenue_wow_growth'].iloc[-1]
                 st.metric("WoW Growth", f"{growth:.1f}%", delta=f"{growth:.1f}%")
+            else:
+                # Calculate simple growth from first to last day
+                if len(comp_kpis) >= 7:
+                    first_week = comp_kpis.head(7)['total_revenue'].sum()
+                    last_week = comp_kpis.tail(7)['total_revenue'].sum()
+                    growth = ((last_week - first_week) / first_week * 100) if first_week > 0 else 0
+                    st.metric("WoW Growth", f"{growth:.1f}%", delta=f"{growth:.1f}%")
         
         # Line chart: Daily revenue
         fig = create_line_chart(

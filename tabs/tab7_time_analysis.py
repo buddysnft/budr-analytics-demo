@@ -9,7 +9,7 @@ from components.charts import create_heatmap, create_line_chart, create_bar_char
 from config.config import COLORS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Time Analysis tab"""
     

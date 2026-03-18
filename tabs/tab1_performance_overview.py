@@ -9,7 +9,7 @@ from components.charts import create_metric_card, create_sparkline, create_gauge
 from config.config import THRESHOLDS, COLORS
 
 
-def render(db: DatabaseConnector, selected_date: str, selected_locations: list,
+def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Performance Overview tab"""
     
