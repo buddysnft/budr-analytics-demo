@@ -6,7 +6,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from components.charts import create_heatmap, create_line_chart, create_bar_chart
-from utils.demo_data_loader import load_demo_data
 from config.config import COLORS
 
 

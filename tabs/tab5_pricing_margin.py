@@ -5,7 +5,6 @@ Gross margin by category, BUDR vs CT pricing, discount trends, promo impact
 import streamlit as st
 import pandas as pd
 from components.charts import create_bar_chart, create_line_chart, create_comparison_chart
-from utils.demo_data_loader import load_demo_data
 from config.config import COLORS
 
 
