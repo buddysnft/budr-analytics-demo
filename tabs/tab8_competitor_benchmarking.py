@@ -5,7 +5,7 @@ BUDR vs CT market pricing, product gaps, deal frequency, out-of-stock opportunit
 import streamlit as st
 import pandas as pd
 from components.charts import create_comparison_chart, create_bar_chart, create_line_chart
-from utils.db_connector import DatabaseConnector
+from utils.demo_data_loader import load_demo_data
 from config.config import COLORS
 
 

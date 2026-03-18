@@ -5,7 +5,7 @@ Days on hand, sell-through rates, stockouts, overstock, new product performance
 import streamlit as st
 import pandas as pd
 from components.charts import create_bar_chart, create_line_chart, create_gauge
-from utils.db_connector import DatabaseConnector
+from utils.demo_data_loader import load_demo_data
 from config.config import COLORS, THRESHOLDS
 
 

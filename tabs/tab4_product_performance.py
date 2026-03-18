@@ -5,7 +5,7 @@ Top/bottom SKUs, category ranking, turnover, dead stock, velocity, market basket
 import streamlit as st
 import pandas as pd
 from components.charts import create_bar_chart, create_heatmap, create_scatter
-from utils.db_connector import DatabaseConnector
+from utils.demo_data_loader import load_demo_data
 from config.config import COLORS, THRESHOLDS
 
 

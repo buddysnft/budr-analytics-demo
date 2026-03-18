@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 from components.charts import create_metric_card, create_sparkline, create_gauge
-from utils.db_connector import DatabaseConnector
+from utils.demo_data_loader import load_demo_data
 from config.config import THRESHOLDS, COLORS
 
 

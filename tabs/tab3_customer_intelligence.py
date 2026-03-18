@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 from components.charts import (create_pie_chart, create_line_chart, create_retention_curve,
                                create_distribution_histogram, create_bar_chart)
-from utils.db_connector import DatabaseConnector
+from utils.demo_data_loader import load_demo_data
 from config.config import COLORS
 
 
