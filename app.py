@@ -39,32 +39,128 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# Custom CSS - Professional Styling
 st.markdown("""
 <style>
+    /* Main layout */
     .main > div {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
+    
+    /* Metric cards */
     .stMetric {
-        background-color: #f0f2f6;
-        padding: 1rem;
-        border-radius: 0.5rem;
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        padding: 1.5rem;
+        border-radius: 12px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
+    
+    .stMetric:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+    }
+    
+    /* Metric labels */
+    .stMetric label {
+        font-size: 0.9rem !important;
+        font-weight: 600 !important;
+        color: #555 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    /* Metric values */
+    .stMetric [data-testid="stMetricValue"] {
+        font-size: 2rem !important;
+        font-weight: 700 !important;
+        color: #00A86B !important;
+    }
+    
+    /* Tabs */
     .stTabs [data-baseweb="tab-list"] {
-        gap: 2rem;
+        gap: 1rem;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 0.5rem;
     }
+    
     .stTabs [data-baseweb="tab"] {
-        height: 3rem;
-        padding: 0 1.5rem;
+        height: 3.5rem;
+        padding: 0 2rem;
+        background-color: transparent;
+        border-radius: 8px;
+        font-weight: 600;
+        color: #555;
     }
+    
+    .stTabs [data-baseweb="tab"]:hover {
+        background-color: rgba(0, 168, 107, 0.1);
+        color: #00A86B;
+    }
+    
+    .stTabs [aria-selected="true"] {
+        background: linear-gradient(135deg, #00A86B 0%, #00C975 100%) !important;
+        color: white !important;
+        box-shadow: 0 4px 6px rgba(0, 168, 107, 0.3);
+    }
+    
+    /* Demo banner */
     .demo-banner {
-        background: linear-gradient(90deg, #ff6b6b, #ff8c42);
+        background: linear-gradient(135deg, #00A86B 0%, #00C975 100%);
         color: white;
-        padding: 1rem;
-        border-radius: 0.5rem;
+        padding: 1.25rem;
+        border-radius: 12px;
         text-align: center;
-        font-weight: bold;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 168, 107, 0.3);
+    }
+    
+    /* Sidebar */
+    .css-1d391kg {
+        background-color: #f8f9fa;
+    }
+    
+    /* Headers */
+    h1 {
+        color: #2c3e50;
+        font-weight: 800 !important;
+        letter-spacing: -0.5px;
+    }
+    
+    h2, h3 {
+        color: #34495e;
+        font-weight: 700 !important;
+    }
+    
+    /* Cards and containers */
+    .element-container {
         margin-bottom: 1rem;
+    }
+    
+    /* Buttons */
+    .stButton > button {
+        background: linear-gradient(135deg, #00A86B 0%, #00C975 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        box-shadow: 0 2px 4px rgba(0, 168, 107, 0.2);
+    }
+    
+    .stButton > button:hover {
+        box-shadow: 0 4px 8px rgba(0, 168, 107, 0.3);
+        transform: translateY(-1px);
+    }
+    
+    /* Charts */
+    .js-plotly-plot {
+        border-radius: 8px;
+        overflow: hidden;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -72,8 +168,7 @@ st.markdown("""
 # DEMO BANNER
 st.markdown("""
 <div class="demo-banner">
-    🎯 DEMO MODE - This dashboard uses realistic sample data. 
-    Connect to your Dutchie API for live data in 48 hours!
+    📊 DEMO VERSION — Fully functional with 30 days of realistic sample data ($7.3M revenue, 7 locations, 8 competitors)
 </div>
 """, unsafe_allow_html=True)
 
