@@ -2,15 +2,11 @@
 BUDR Analytics Dashboard - Configuration
 """
 import os
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-# Database Configuration
+# Database Configuration (not used in demo - loads from CSV)
 DB_CONFIG = {
     'host': os.getenv('POSTGRES_HOST', 'localhost'),
-    'port': int(os.getenv('POSTGRES_PORT', 5432)),
+    'port': int(os.getenv('POSTGRES_PORT', '5432')),
     'database': os.getenv('POSTGRES_DB', 'budr_analytics'),
     'user': os.getenv('POSTGRES_USER', 'budr'),
     'password': os.getenv('POSTGRES_PASSWORD', 'changeme')
