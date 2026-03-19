@@ -13,7 +13,8 @@ def render(db, selected_date: str, selected_locations: list,
           start_date: str, end_date: str):
     """Render Performance Overview tab"""
     
-    st.header("🎯 Performance Overview - Top 5 KPIs")
+    st.header("🎯 Performance Overview")
+    st.caption("Key performance indicators across all selected locations")
     
     # Get Top 5 KPIs for selected date
     kpis = db.get_top_5_kpis(selected_date, selected_locations)

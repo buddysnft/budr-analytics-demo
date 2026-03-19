@@ -14,6 +14,7 @@ def render(db, selected_date: str, selected_locations: list,
     """Render Revenue Deep Dive tab"""
     
     st.header("💰 Revenue Deep Dive")
+    st.caption("Comprehensive revenue analysis by category, channel, and time period")
     
     # Get comprehensive KPIs
     comp_kpis = db.get_comprehensive_kpis(start_date, end_date, selected_locations)

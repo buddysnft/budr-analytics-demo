@@ -75,7 +75,17 @@ st.markdown("""
     .stMetric [data-testid="stMetricValue"] {
         font-size: 2rem !important;
         font-weight: 700 !important;
+        color: #1a1a1a !important;
+    }
+    
+    /* Metric delta (positive) */
+    .stMetric [data-testid="stMetricDelta"] > div {
         color: #00A86B !important;
+    }
+    
+    /* Negative delta */
+    .stMetric [data-testid="stMetricDelta"][data-arrow="down"] > div {
+        color: #dc3545 !important;
     }
     
     /* Tabs */
@@ -161,6 +171,28 @@ st.markdown("""
     .js-plotly-plot {
         border-radius: 8px;
         overflow: hidden;
+    }
+    
+    /* Loading states */
+    .stSpinner > div {
+        border-color: #00A86B !important;
+    }
+    
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .stMetric [data-testid="stMetricValue"] {
+            font-size: 1.5rem !important;
+        }
+        
+        .stTabs [data-baseweb="tab"] {
+            padding: 0 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .demo-banner {
+            font-size: 0.95rem;
+            padding: 1rem;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -283,6 +315,19 @@ if not all_channels:
 else:
     selected_channels = CHANNELS
 
+# Export options
+st.sidebar.divider()
+st.sidebar.subheader("📥 Export")
+
+export_format = st.sidebar.selectbox(
+    "Format",
+    options=["CSV", "Excel"],
+    help="Export current view data"
+)
+
+if st.sidebar.button("⬇️ Export Data", use_container_width=True):
+    st.sidebar.info("Export functionality coming soon with live data connection!")
+
 # Data refresh
 st.sidebar.divider()
 if st.sidebar.button("🔄 Refresh Data", use_container_width=True):
@@ -294,8 +339,8 @@ if st.sidebar.button("🔄 Refresh Data", use_container_width=True):
 st.title(f"{PAGE_ICON} {PAGE_TITLE}")
 st.caption("Demo Version - All data is simulated for demonstration purposes")
 
-# Summary bar
-col1, col2, col3, col4 = st.columns(4)
+# Summary bar - Responsive columns
+col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
 with col1:
     st.metric("Date Range", f"{(end_date - start_date).days} days")
@@ -329,62 +374,70 @@ start_date_str = str(start_date)
 end_date_str = str(end_date)
 selected_date_str = str(end_date)  # Use end date as "current" date for point-in-time metrics
 
-# Render tabs
+# Render tabs with loading states
 with tab1:
-    try:
-        tab1_performance_overview.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Performance Overview: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading performance data..."):
+        try:
+            tab1_performance_overview.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Performance Overview: {str(e)}")
+            st.exception(e)
 
 with tab2:
-    try:
-        tab2_revenue_deep_dive.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Revenue Deep Dive: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading revenue data..."):
+        try:
+            tab2_revenue_deep_dive.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Revenue Deep Dive: {str(e)}")
+            st.exception(e)
 
 with tab3:
-    try:
-        tab3_customer_intelligence.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Customer Intelligence: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading customer data..."):
+        try:
+            tab3_customer_intelligence.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Customer Intelligence: {str(e)}")
+            st.exception(e)
 
 with tab4:
-    try:
-        tab4_product_performance.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Product Performance: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading product data..."):
+        try:
+            tab4_product_performance.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Product Performance: {str(e)}")
+            st.exception(e)
 
 with tab5:
-    try:
-        tab5_pricing_margin.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Pricing & Margin: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading pricing data..."):
+        try:
+            tab5_pricing_margin.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Pricing & Margin: {str(e)}")
+            st.exception(e)
 
 with tab6:
-    try:
-        tab6_inventory_management.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Inventory Management: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading inventory data..."):
+        try:
+            tab6_inventory_management.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Inventory Management: {str(e)}")
+            st.exception(e)
 
 with tab7:
-    try:
-        tab7_time_analysis.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Time Analysis: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading time analysis..."):
+        try:
+            tab7_time_analysis.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Time Analysis: {str(e)}")
+            st.exception(e)
 
 with tab8:
-    try:
-        tab8_competitor_benchmarking.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
-    except Exception as e:
-        st.error(f"Error loading Competitor Benchmarking: {str(e)}")
-        st.exception(e)
+    with st.spinner("Loading competitor data..."):
+        try:
+            tab8_competitor_benchmarking.render(db, selected_date_str, selected_locations, start_date_str, end_date_str)
+        except Exception as e:
+            st.error(f"⚠️ Error loading Competitor Benchmarking: {str(e)}")
+            st.exception(e)
 
 # Footer
 st.divider()
